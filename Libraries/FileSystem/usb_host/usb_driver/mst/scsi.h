@@ -1,0 +1,104 @@
+/***************************************************************************
+ *
+ *            Copyright (c) 2003-2008 by HCC Embedded
+ *
+ * This software is copyrighted by and is the sole property of
+ * HCC.  All rights, title, ownership, or other interests
+ * in the software remain the property of HCC.  This
+ * software may only be used in accordance with the corresponding
+ * license agreement.  Any unauthorized use, duplication, transmission,
+ * distribution, or disclosure of this software is expressly forbidden.
+ *
+ * This Copyright notice may not be removed or modified without prior
+ * written consent of HCC.
+ *
+ * HCC reserves the right to modify this software without notice.
+ *
+ * HCC Embedded
+ * Budapest 1133
+ * Vaci Ut 110
+ * Hungary
+ *
+ * Tel:  +36 (1) 450 1302
+ * Fax:  +36 (1) 450 1303
+ * http: www.hcc-embedded.com
+ * email: info@hcc-embedded.com
+ *
+ ***************************************************************************/
+
+#ifndef _SCSI_H_
+#define _SCSI_H_
+
+#include "hcc_types.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#define SCSI_MAX_DEVICE					2		//Jason Wang
+#define SCSI_MAX_LUN					2
+#define SCSI_SUPPORT_REMOVABLE_DEVICE	0
+
+#define RETRY_COUNT						10
+#define RETRY_WAIT_MS					10
+
+enum {
+  SCSI_SUCCESS=0,
+  SCSI_ERR_UNIT,
+  SCSI_ERR_NLUN,
+  SCSI_ERR_TRANSFER
+};
+
+/* SCSI drive states */
+#define SCSI_ST_CONNECTED		1
+#define SCSI_ST_CHANGED			2
+#define SCSI_ST_WRPROTECT		4
+
+/* Error codes returned by the lower layer communication driver. */
+#define ERR_IO_NONE     0
+#define ERR_IO_CHECK    1
+#define ERR_IO_REMOVED  2
+
+/* Transfer directions. */
+#define DIR_NONE 2
+#define DIR_IN   1
+#define DIR_OUT  0
+
+/* Structure to store LUN (logical unit) information. */
+typedef struct {
+  int state,pstate;
+
+  char pdt;
+  char vendor[8];
+  char prod_id[16];
+  char rev[4];
+
+  hcc_u32 no_of_sectors;
+  hcc_u32 sector_size;
+
+  hcc_u32 sense_code;
+  hcc_u32 sense_info;
+} t_lun_info;
+
+typedef int t_rw_func(void *dev_hdl, hcc_u8 cmd_length, void *cmd, hcc_u8 dir, hcc_u32 buf_length, void *buf);
+typedef hcc_u8 t_st_func(void *dev_hdl);
+
+int scsi_init(void);
+int scsi_reset_lun(hcc_u8 dev);
+int scsi_open_device(hcc_u8 dev, hcc_u8 nlun, t_rw_func *f, t_st_func *st, void *dev_hdl);
+int scsi_close_device(hcc_u8 dev);
+int scsi_cmd_read (hcc_u8 unit, hcc_u32 lba, hcc_u32 length, void *buffer);
+int scsi_cmd_write (hcc_u8 unit, hcc_u32 lba, hcc_u32 length, void *buffer);
+
+#define scsi_read(unit,lba,length,buffer) scsi_cmd_read(unit,lba,length,buffer)
+#define scsi_write(unit,lba,length,buffer) scsi_cmd_write(unit,lba,length,buffer)
+int scsi_get_unit_state(hcc_u8 unit);
+t_lun_info *scsi_get_lun_info(hcc_u8 unit);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
+
+

@@ -1,0 +1,2157 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memset.o)
+                              BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj (memset)
+C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strncpy.o)
+                              BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj (strncpy)
+C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strstr.o)
+                              BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj (strstr)
+C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strcpy.o)
+                              BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj (strcpy)
+C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+                              BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj (memcpy)
+C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strlen-stub.o)
+                              BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj (strlen)
+C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcmp.o)
+                              C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strstr.o) (memcmp)
+C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strchr.o)
+                              C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strstr.o) (strchr)
+C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strnlen.o)
+                              C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strstr.o) (strnlen)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootNMI_Handler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootHardFault_Handler
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootMemManage_Handler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootBusFault_Handler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootUsageFault_Handler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootSVC_Handler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootDebugMon_Handler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootPendSV_Handler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootSysTick_Handler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootWWDG_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootPVD_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootTAMPER_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootRTC_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootFLASH_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootRCC_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootEXTI0_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootEXTI1_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootEXTI2_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootEXTI3_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootEXTI4_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootDMA1_Channel1_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootDMA1_Channel2_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootDMA1_Channel3_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootDMA1_Channel4_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootDMA1_Channel5_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootDMA1_Channel6_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootDMA1_Channel7_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootADC1_2_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootCAN1_TX_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootCAN1_RX0_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootCAN1_RX1_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootCAN1_SCE_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootEXTI9_5_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootTIM1_BRK_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootTIM1_UP_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootTIM1_TRG_COM_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootTIM1_CC_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootTIM2_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootTIM3_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootTIM4_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootI2C1_EV_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootI2C1_ER_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootI2C2_EV_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootI2C2_ER_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootSPI1_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootSPI2_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootUSART1_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootUSART2_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootUSART3_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootEXTI15_10_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootRTCAlarm_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootOTG_FS_WKUP_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootTIM5_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootSPI3_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootUART4_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootUART5_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootTIM6_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootTIM7_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootDMA2_Channel1_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootDMA2_Channel2_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootDMA2_Channel3_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootDMA2_Channel4_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootDMA2_Channel5_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootETH_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootETH_WKUP_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootCAN2_TX_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootCAN2_RX0_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootCAN2_RX1_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text.BootCAN2_SCE_IRQHandler
+                0x00000000        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .comment       0x00000000       0x46 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .ARM.attributes
+                0x00000000       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+ .text.Boot_CheckJHTfile
+                0x00000000       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+ .text.Boot_MoveUCBvectorToRAM
+                0x00000000       0x24 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+ .text.Boot_NVIC_PriorityGroupConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+ .text.Boot_NVIC_SetVectorTable
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+ .rodata.FW_BIN
+                0x00000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+ .rodata.Boot_Version
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+ .rodata.Boot_Product
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Bootflash.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Bootflash.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Bootflash.c.obj
+ .text.BootFLASH_Lock
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Bootflash.c.obj
+ .text.BootFLASH_ClearFlag
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Bootflash.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+ .text.BootLCM_HW_Initial
+                0x00000000       0x3e BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+ .text.BootLCMDisplay_xy
+                0x00000000        0xa BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+ .text.BootLCMDisplay_show_byte
+                0x00000000       0x3e BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+ .text.BootLCMDisplay_show_word
+                0x00000000       0x20 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+ .text.BootLCMDisplay_show_long_bcd
+                0x00000000      0x15c BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+ .text.BootLCMDisplay_show_scrollingstring
+                0x00000000       0xea BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Stm32GPIO.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Stm32GPIO.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Stm32GPIO.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/LowLevelInitial/manual_init.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/LowLevelInitial/manual_init.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/LowLevelInitial/manual_init.c.obj
+ .text.__manual_data_init
+                0x00000000       0xb8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/LowLevelInitial/manual_init.c.obj
+ .noinit        0x00000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/LowLevelInitial/manual_init.c.obj
+ .comment       0x00000000       0x46 BootAPI/CMakeFiles/white_simulator_bootloader.dir/LowLevelInitial/manual_init.c.obj
+ .ARM.attributes
+                0x00000000       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/LowLevelInitial/manual_init.c.obj
+ .text          0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/daa85f0c95b0915ea589caa81afa7ebe/startup/gcc_ride7/startup_stm32f10x_cl.s.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/daa85f0c95b0915ea589caa81afa7ebe/startup/gcc_ride7/startup_stm32f10x_cl.s.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/daa85f0c95b0915ea589caa81afa7ebe/startup/gcc_ride7/startup_stm32f10x_cl.s.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_DeInit
+                0x00000000       0xcc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_AFIODeInit
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_Init
+                0x00000000       0xba BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_StructInit
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_ReadInputDataBit
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_ReadInputData
+                0x00000000        0x6 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_ReadOutputDataBit
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_ReadOutputData
+                0x00000000        0x6 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_SetBits
+                0x00000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_ResetBits
+                0x00000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_WriteBit
+                0x00000000        0xa BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_Write
+                0x00000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_PinLockConfig
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_EventOutputConfig
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_EventOutputCmd
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_PinRemapConfig
+                0x00000000       0x84 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_EXTILineConfig
+                0x00000000       0x2c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text.GPIO_ETH_MediaInterfaceConfig
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .comment       0x00000000       0x46 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .ARM.attributes
+                0x00000000       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_DeInit
+                0x00000000       0xa4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_Init
+                0x00000000       0xb4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_StructInit
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_ClockInit
+                0x00000000       0x26 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_ClockStructInit
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_Cmd
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_ITConfig
+                0x00000000       0x34 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_DMACmd
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_SetAddress
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_WakeUpConfig
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_ReceiverWakeUpCmd
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_LINBreakDetectLengthConfig
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_LINCmd
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_SendData
+                0x00000000        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_ReceiveData
+                0x00000000        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_SendBreak
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_SetGuardTime
+                0x00000000       0x12 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_SetPrescaler
+                0x00000000       0x12 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_SmartCardCmd
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_SmartCardNACKCmd
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_HalfDuplexCmd
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_OverSampling8Cmd
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_OneBitMethodCmd
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_IrDAConfig
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_IrDACmd
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_GetFlagStatus
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_ClearFlag
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_GetITStatus
+                0x00000000       0x42 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text.USART_ClearITPendingBit
+                0x00000000        0xe BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .comment       0x00000000       0x46 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .ARM.attributes
+                0x00000000       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_DeInit
+                0x00000000       0x4c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_HSEConfig
+                0x00000000       0x3c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_HSICmd
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_PLLConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_PLLCmd
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_PREDIV1Config
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_PREDIV2Config
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_PLL2Config
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_PLL2Cmd
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_PLL3Config
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_PLL3Cmd
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_SYSCLKConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_HCLKConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_PCLK1Config
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_PCLK2Config
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_ITConfig
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_OTGFSCLKConfig
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_ADCCLKConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_I2S2CLKConfig
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_I2S3CLKConfig
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_LSEConfig
+                0x00000000       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_LSICmd
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_RTCCLKCmd
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_GetClocksFreq
+                0x00000000       0xd8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_AHBPeriphClockCmd
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_APB2PeriphClockCmd
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_APB1PeriphClockCmd
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_AHBPeriphResetCmd
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_APB2PeriphResetCmd
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_APB1PeriphResetCmd
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_BackupResetCmd
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_MCOConfig
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_GetFlagStatus
+                0x00000000       0x28 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x32 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_ClearFlag
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_GetITStatus
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text.RCC_ClearITPendingBit
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .rodata.ADCPrescTable
+                0x00000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .rodata.APBAHBPrescTable
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .comment       0x00000000       0x46 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .ARM.attributes
+                0x00000000       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c.obj
+ .text.NVIC_PriorityGroupConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c.obj
+ .text.NVIC_Init
+                0x00000000       0x68 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c.obj
+ .text.NVIC_SetVectorTable
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c.obj
+ .text.NVIC_SystemLPConfig
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c.obj
+ .text.SysTick_CLKSourceConfig
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c.obj
+ .comment       0x00000000       0x46 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c.obj
+ .ARM.attributes
+                0x00000000       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TI1_Config
+                0x00000000       0x8c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TI2_Config
+                0x00000000       0x90 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_DeInit
+                0x00000000      0x20c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_TimeBaseInit
+                0x00000000       0xa0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC1Init
+                0x00000000       0x9c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC2Init
+                0x00000000       0x94 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC3Init
+                0x00000000       0x90 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC4Init
+                0x00000000       0x74 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_BDTRConfig
+                0x00000000       0x22 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_TimeBaseStructInit
+                0x00000000       0x12 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OCStructInit
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ICStructInit
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_BDTRStructInit
+                0x00000000       0x12 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_Cmd  0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_CtrlPWMOutputs
+                0x00000000       0x24 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ITConfig
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_GenerateEvent
+                0x00000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_DMAConfig
+                0x00000000        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_DMACmd
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_InternalClockConfig
+                0x00000000        0xe BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ITRxExternalClockConfig
+                0x00000000       0x1a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_TIxExternalClockConfig
+                0x00000000       0x34 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ETRConfig
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ETRClockMode1Config
+                0x00000000       0x1a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ETRClockMode2Config
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_PrescalerConfig
+                0x00000000        0x6 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_CounterModeConfig
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SelectInputTrigger
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_EncoderInterfaceConfig
+                0x00000000       0x50 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ForcedOC1Config
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ForcedOC2Config
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ForcedOC3Config
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ForcedOC4Config
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ARRPreloadConfig
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SelectCOM
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SelectCCDMA
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_CCPreloadControl
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC1PreloadConfig
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC2PreloadConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC3PreloadConfig
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC4PreloadConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC1FastConfig
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC2FastConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC3FastConfig
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC4FastConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ClearOC1Ref
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ClearOC2Ref
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ClearOC3Ref
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ClearOC4Ref
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC1PolarityConfig
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC1NPolarityConfig
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC2PolarityConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC2NPolarityConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC3PolarityConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC3NPolarityConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_OC4PolarityConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_CCxCmd
+                0x00000000       0x1e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_CCxNCmd
+                0x00000000       0x1e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SelectOCxM
+                0x00000000       0x5a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_UpdateDisableConfig
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_UpdateRequestConfig
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SelectHallSensor
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SelectOnePulseMode
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SelectOutputTrigger
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SelectSlaveMode
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SelectMasterSlaveMode
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SetCounter
+                0x00000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SetAutoreload
+                0x00000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SetCompare1
+                0x00000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SetCompare2
+                0x00000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SetCompare3
+                0x00000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SetCompare4
+                0x00000000        0x6 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SetIC1Prescaler
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SetIC2Prescaler
+                0x00000000       0x1a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_PWMIConfig
+                0x00000000       0x66 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SetIC3Prescaler
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SetIC4Prescaler
+                0x00000000       0x1a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ICInit
+                0x00000000      0x140 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_SetClockDivision
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_GetCapture1
+                0x00000000        0x6 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_GetCapture2
+                0x00000000        0x6 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_GetCapture3
+                0x00000000        0x6 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_GetCapture4
+                0x00000000        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_GetCounter
+                0x00000000        0x6 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_GetPrescaler
+                0x00000000        0x6 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_GetFlagStatus
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ClearFlag
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_GetITStatus
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text.TIM_ClearITPendingBit
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .comment       0x00000000       0x46 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .ARM.attributes
+                0x00000000       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_DeInit
+                0x00000000       0x64 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_Init
+                0x00000000       0x48 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_StructInit
+                0x00000000       0x12 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_Cmd  0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_DMACmd
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_ITConfig
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_ResetCalibration
+                0x00000000        0xa BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_GetResetCalibrationStatus
+                0x00000000        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_StartCalibration
+                0x00000000        0xa BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_GetCalibrationStatus
+                0x00000000        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_SoftwareStartConvCmd
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_GetSoftwareStartConvStatus
+                0x00000000        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_DiscModeChannelCountConfig
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_DiscModeCmd
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_RegularChannelConfig
+                0x00000000       0xa6 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_ExternalTrigConvCmd
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_GetConversionValue
+                0x00000000        0x6 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_GetDualModeConversionValue
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_AutoInjectedConvCmd
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_InjectedDiscModeCmd
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_ExternalTrigInjectedConvConfig
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_ExternalTrigInjectedConvCmd
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_SoftwareStartInjectedConvCmd
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_GetSoftwareStartInjectedConvCmdStatus
+                0x00000000        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_InjectedChannelConfig
+                0x00000000       0x6c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_InjectedSequencerLengthConfig
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_SetInjectedOffset
+                0x00000000       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_GetInjectedConversionValue
+                0x00000000       0x1a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_AnalogWatchdogCmd
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_AnalogWatchdogThresholdsConfig
+                0x00000000        0x6 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_AnalogWatchdogSingleChannelConfig
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_TempSensorVrefintCmd
+                0x00000000       0x20 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_GetFlagStatus
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_ClearFlag
+                0x00000000        0x6 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_GetITStatus
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text.ADC_ClearITPendingBit
+                0x00000000        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .comment       0x00000000       0x46 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .ARM.attributes
+                0x00000000       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .text.DMA_DeInit
+                0x00000000      0x128 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .text.DMA_Init
+                0x00000000       0x3a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .text.DMA_StructInit
+                0x00000000       0x1a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .text.DMA_Cmd  0x00000000       0x1a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .text.DMA_ITConfig
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .text.DMA_SetCurrDataCounter
+                0x00000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .text.DMA_GetCurrDataCounter
+                0x00000000        0x6 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .text.DMA_GetFlagStatus
+                0x00000000       0x20 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .text.DMA_ClearFlag
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .text.DMA_GetITStatus
+                0x00000000       0x20 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .text.DMA_ClearITPendingBit
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .comment       0x00000000       0x46 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .ARM.attributes
+                0x00000000       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text._set8bit
+                0x00000000       0x3a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text._f_ioctl
+                0x00000000       0x1e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .rodata.fn_getversion.str1.4
+                0x00000000       0x19 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_getversion
+                0x00000000        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text._f_ioctl_endofdelete
+                0x00000000        0xe BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text._f_ioctl_multiplesectorerase
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_getpartition
+                0x00000000       0xf0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_get_volume_count
+                0x00000000       0x24 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_get_volume_list
+                0x00000000       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_createpartition
+                0x00000000      0x224 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_tell  0x00000000       0x40 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_eof   0x00000000       0x26 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.f_releaseFS
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .rodata.fn_format.str1.4
+                0x00000000       0x39 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_format
+                0x00000000      0x734 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_getfreespace
+                0x00000000      0x1bc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_delvolume
+                0x00000000       0x7c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_releasedriver
+                0x00000000       0x50 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_get_oem
+                0x00000000       0x50 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_getc  0x00000000       0x22 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_putc  0x00000000       0x26 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_flush
+                0x00000000       0x8c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_rewind
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text._fn_removeseekpos
+                0x00000000       0x38 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_seteof
+                0x00000000       0xc8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text.fn_ftruncate
+                0x00000000       0x1a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text._f_createfullname
+                0x00000000       0x8a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .rodata.FAT32_CS
+                0x00000000       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat.c.obj
+ .comment       0x00000000       0x46 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat.c.obj
+ .ARM.attributes
+                0x00000000       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_getdcwd
+                0x00000000       0xb0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_getcwd
+                0x00000000       0xb8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_wgetcwd
+                0x00000000       0xb4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_wchdir
+                0x00000000       0xca BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_chdir
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_wrename
+                0x00000000      0x312 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_rename
+                0x00000000       0x26 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_wmove
+                0x00000000      0x65a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_move  0x00000000       0x26 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .rodata.fn_wmkdir.str1.4
+                0x00000000       0x19 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_wmkdir
+                0x00000000      0x2f0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_mkdir
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_wfilelength
+                0x00000000       0xe0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_filelength
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_wstat
+                0x00000000       0xec BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_stat  0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_wsettimedate
+                0x00000000       0xc4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_settimedate
+                0x00000000       0x20 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_wgettimedate
+                0x00000000       0xa0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_gettimedate
+                0x00000000       0x20 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_wgetattr
+                0x00000000       0x8e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_getattr
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_wsetattr
+                0x00000000       0xc8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_setattr
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_wrmdir
+                0x00000000      0x1e4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_rmdir
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_getlabel
+                0x00000000       0xfe BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_setlabel
+                0x00000000      0x188 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_wtruncate
+                0x00000000      0x2b4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_truncate
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_getversion
+                0x00000000        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_createdriver
+                0x00000000       0x32 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_initvolumepartition
+                0x00000000       0x32 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_createpartition
+                0x00000000       0x32 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_getpartition
+                0x00000000       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_delvolume
+                0x00000000       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_releasedriver
+                0x00000000       0x1e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_get_volume_count
+                0x00000000       0x28 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_get_volume_list
+                0x00000000       0x2c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_format
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_getcwd
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wgetcwd
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_getdcwd
+                0x00000000       0x32 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wgetdcwd
+                0x00000000       0x32 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_getfreespace
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_chdir
+                0x00000000       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wchdir
+                0x00000000       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_mkdir
+                0x00000000       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wmkdir
+                0x00000000       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_rmdir
+                0x00000000       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wrmdir
+                0x00000000       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wfindfirst
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wfindnext
+                0x00000000       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_rename
+                0x00000000       0x52 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wrename
+                0x00000000       0x52 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_move  0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wmove
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_filelength
+                0x00000000       0x2c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wfilelength
+                0x00000000       0x2c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_flush
+                0x00000000       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wopen
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_write
+                0x00000000       0x36 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_tell  0x00000000       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_getc  0x00000000       0x2c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_putc  0x00000000       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_rewind
+                0x00000000       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_eof   0x00000000       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_gettimedate
+                0x00000000       0x32 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wgettimedate
+                0x00000000       0x32 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_stat  0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wstat
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_settimedate
+                0x00000000       0x32 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wsettimedate
+                0x00000000       0x32 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wdelete
+                0x00000000       0x2c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_getattr
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wgetattr
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_setattr
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wsetattr
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_getlabel
+                0x00000000       0x32 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_setlabel
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_truncate
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_wtruncate
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_get_oem
+                0x00000000       0x32 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_ftruncate
+                0x00000000       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_seteof
+                0x00000000       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text.fm_getlasterror
+                0x00000000       0x1a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/port_f.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/port_f.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/port_f.c.obj
+ .text.f_getrand
+                0x00000000       0x40 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/port_f.c.obj
+ .text.f_mutex_delete
+                0x00000000        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/port_f.c.obj
+ .data.dwrand   0x00000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/port_f.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+ .text.usb_mst_suspend
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+ .text.usb_mst_resume
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .text._pmgr_suspend_resume
+                0x00000000       0x88 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .text._pmgr_remove_hub_ports
+                0x00000000       0xac BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .text.pmgr_get_port_number
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .text.pmgr_get_ifc_port_number
+                0x00000000       0x22 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .text.pmgr_suspend
+                0x00000000        0xa BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .text.pmgr_resume
+                0x00000000        0xa BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .text.pmgr_delete_hub
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .text.pmgr_stop
+                0x00000000       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .text.stm32uh_stop
+                0x00000000       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+ .text.stm32uh_hub_stop
+                0x00000000       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hw.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hw.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hw.c.obj
+ .text.stm32uh_hw_stop
+                0x00000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hw.c.obj
+ .text.stm32uh_hw_resume
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hw.c.obj
+ .text.stm32uh_hw_suspend
+                0x00000000        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hw.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_host.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_host.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_host.c.obj
+ .text.usbh_stop
+                0x00000000       0x1a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_host.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+ .text.fill_setup_packet
+                0x00000000       0x3c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+ .text.set_alt_ifc
+                0x00000000       0x54 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+ .text          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+ .data          0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+ .bss           0x00000000        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+ .text.os_isr_disable
+                0x00000000       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+ .text          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memset.o)
+ .data          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memset.o)
+ .text          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strncpy.o)
+ .data          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strncpy.o)
+ .bss           0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strncpy.o)
+ .text          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strstr.o)
+ .data          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strstr.o)
+ .bss           0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strstr.o)
+ .text.two_way_short_needle
+                0x00000000      0x19c C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strstr.o)
+ .text          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strcpy.o)
+ .data          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strcpy.o)
+ .bss           0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strcpy.o)
+ .data          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+ .bss           0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+ .ARM.extab     0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+ .text          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strlen-stub.o)
+ .data          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strlen-stub.o)
+ .bss           0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strlen-stub.o)
+ .text          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcmp.o)
+ .data          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcmp.o)
+ .bss           0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcmp.o)
+ .text          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strchr.o)
+ .data          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strchr.o)
+ .bss           0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strchr.o)
+ .text          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strnlen.o)
+ .data          0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strnlen.o)
+ .bss           0x00000000        0x0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strnlen.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00040000         xr
+RAM              0x20000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot_it.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Bootflash.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Stm32GPIO.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/LowLevelInitial/manual_init.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/daa85f0c95b0915ea589caa81afa7ebe/startup/gcc_ride7/startup_stm32f10x_cl.s.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/port_f.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hw.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_host.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+LOAD BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+START GROUP
+LOAD C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a
+LOAD C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a
+END GROUP
+                0x20010000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x00001000                        _Min_Heap_Size = 0x1000
+                0x00001000                        _Min_Stack_Size = 0x1000
+
+.isr_vector     0x08000000      0x1e4
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x1e4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/daa85f0c95b0915ea589caa81afa7ebe/startup/gcc_ride7/startup_stm32f10x_cl.s.obj
+                0x08000000                g_pfnVectors
+
+.text           0x080001e4     0x9a4c
+ *(.text*)
+ .text.Boot_EarseUserProgram
+                0x080001e4       0x28 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x080001e4                Boot_EarseUserProgram
+ .text.Boot_CheckUserInformation
+                0x0800020c       0x1e BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x0800020c                Boot_CheckUserInformation
+ *fill*         0x0800022a        0x2 
+ .text.Boot_CheckUserProgram
+                0x0800022c       0x98 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x0800022c                Boot_CheckUserProgram
+ .text.Boot_CheckPenDriverPlunin
+                0x080002c4       0x24 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x080002c4                Boot_CheckPenDriverPlunin
+ .text.Boot_CheckBINFileInformation
+                0x080002e8       0xc0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x080002e8                Boot_CheckBINFileInformation
+ .text.Boot_UpdateUserProgram
+                0x080003a8      0x1c0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x080003a8                Boot_UpdateUserProgram
+ .text.Boot_CallApplication
+                0x08000568       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x08000568                Boot_CallApplication
+ .text.Boot_SearchBINfile
+                0x0800057c       0xa0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x0800057c                Boot_SearchBINfile
+ .text.Boot_DisableIRQn
+                0x0800061c       0x4c BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x0800061c                Boot_DisableIRQn
+ .text.Boot_UCBFirmwareUpdate
+                0x08000668       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x08000668                Boot_UCBFirmwareUpdate
+ *fill*         0x08000696        0x2 
+ .text.Boot_InitialUSB
+                0x08000698       0x4c BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x08000698                Boot_InitialUSB
+ .text.Boot_usbmain
+                0x080006e4      0x14c BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x080006e4                Boot_usbmain
+ .text.SystemInit
+                0x08000830        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x08000830                SystemInit
+ *fill*         0x08000832        0x2 
+ .text.main     0x08000834       0x94 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x08000834                main
+ .text.BootFLASH_Unlock
+                0x080008c8       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Bootflash.c.obj
+                0x080008c8                BootFLASH_Unlock
+ .text.BootFLASH_GetStatus
+                0x080008e0       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Bootflash.c.obj
+                0x080008e0                BootFLASH_GetStatus
+ .text.BootFLASH_WaitForLastOperation
+                0x08000910       0x24 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Bootflash.c.obj
+                0x08000910                BootFLASH_WaitForLastOperation
+ .text.BootFLASH_ErasePage
+                0x08000934       0x48 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Bootflash.c.obj
+                0x08000934                BootFLASH_ErasePage
+ .text.BootFLASH_ProgramHalfWord
+                0x0800097c       0x40 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Bootflash.c.obj
+                0x0800097c                BootFLASH_ProgramHalfWord
+ .text.BootFLASH_EarseUserProgram
+                0x080009bc       0x40 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Bootflash.c.obj
+                0x080009bc                BootFLASH_EarseUserProgram
+ .text.BootLCM_DelayTime
+                0x080009fc       0x20 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+                0x080009fc                BootLCM_DelayTime
+ .text.BootLCM_OutData
+                0x08000a1c       0xce BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+                0x08000a1c                BootLCM_OutData
+ *fill*         0x08000aea        0x2 
+ .text.BootLCM_InData
+                0x08000aec       0xec BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+                0x08000aec                BootLCM_InData
+ .text.BootLCM_CheckBusy
+                0x08000bd8       0xac BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+                0x08000bd8                BootLCM_CheckBusy
+ .text.BootLCM_WriteCommand
+                0x08000c84       0x28 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+                0x08000c84                BootLCM_WriteCommand
+ .text.BootLCM_Clear
+                0x08000cac       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+                0x08000cac                BootLCM_Clear
+ .text.BootLCM_Initial
+                0x08000cc8       0xc4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+                0x08000cc8                BootLCM_Initial
+ .text.BootLCM_WriteData
+                0x08000d8c       0x28 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+                0x08000d8c                BootLCM_WriteData
+ .text.BootLCMDisplay_show_one_char
+                0x08000db4       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+                0x08000db4                BootLCMDisplay_show_one_char
+ .text.BootLCMDisplay_show_word_bcd
+                0x08000dd0      0xa24 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+                0x08000dd0                BootLCMDisplay_show_word_bcd
+ .text.BootLCMDisplay_show_string
+                0x080017f4       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+                0x080017f4                BootLCMDisplay_show_string
+ .text.Stm32GPIO_WriteBit
+                0x08001824       0x8c BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Stm32GPIO.c.obj
+                0x08001824                Stm32GPIO_WriteBit
+ .text.Stm32GPIO_ReadInputDataBit
+                0x080018b0       0x60 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Stm32GPIO.c.obj
+                0x080018b0                Stm32GPIO_ReadInputDataBit
+ .text.Reset_Handler
+                0x08001910       0x44 BootAPI/CMakeFiles/white_simulator_bootloader.dir/daa85f0c95b0915ea589caa81afa7ebe/startup/gcc_ride7/startup_stm32f10x_cl.s.obj
+                0x08001910                Reset_Handler
+ .text.Default_Handler
+                0x08001954        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/daa85f0c95b0915ea589caa81afa7ebe/startup/gcc_ride7/startup_stm32f10x_cl.s.obj
+                0x08001954                EXTI2_IRQHandler
+                0x08001954                DebugMon_Handler
+                0x08001954                TIM1_CC_IRQHandler
+                0x08001954                HardFault_Handler
+                0x08001954                TIM6_IRQHandler
+                0x08001954                SysTick_Handler
+                0x08001954                PVD_IRQHandler
+                0x08001954                PendSV_Handler
+                0x08001954                NMI_Handler
+                0x08001954                CAN2_RX1_IRQHandler
+                0x08001954                EXTI3_IRQHandler
+                0x08001954                EXTI0_IRQHandler
+                0x08001954                I2C2_EV_IRQHandler
+                0x08001954                CAN1_RX0_IRQHandler
+                0x08001954                UsageFault_Handler
+                0x08001954                CAN2_SCE_IRQHandler
+                0x08001954                ADC1_2_IRQHandler
+                0x08001954                SPI1_IRQHandler
+                0x08001954                TAMPER_IRQHandler
+                0x08001954                CAN2_RX0_IRQHandler
+                0x08001954                DMA2_Channel2_IRQHandler
+                0x08001954                DMA1_Channel4_IRQHandler
+                0x08001954                USART3_IRQHandler
+                0x08001954                RTC_IRQHandler
+                0x08001954                DMA1_Channel7_IRQHandler
+                0x08001954                CAN1_RX1_IRQHandler
+                0x08001954                UART5_IRQHandler
+                0x08001954                TIM4_IRQHandler
+                0x08001954                DMA2_Channel1_IRQHandler
+                0x08001954                I2C1_EV_IRQHandler
+                0x08001954                DMA1_Channel6_IRQHandler
+                0x08001954                UART4_IRQHandler
+                0x08001954                DMA2_Channel4_IRQHandler
+                0x08001954                TIM3_IRQHandler
+                0x08001954                RCC_IRQHandler
+                0x08001954                TIM1_TRG_COM_IRQHandler
+                0x08001954                DMA1_Channel1_IRQHandler
+                0x08001954                Default_Handler
+                0x08001954                EXTI15_10_IRQHandler
+                0x08001954                TIM7_IRQHandler
+                0x08001954                CAN2_TX_IRQHandler
+                0x08001954                TIM5_IRQHandler
+                0x08001954                EXTI9_5_IRQHandler
+                0x08001954                ETH_WKUP_IRQHandler
+                0x08001954                SPI2_IRQHandler
+                0x08001954                MemManage_Handler
+                0x08001954                CAN1_TX_IRQHandler
+                0x08001954                SVC_Handler
+                0x08001954                DMA2_Channel5_IRQHandler
+                0x08001954                DMA1_Channel5_IRQHandler
+                0x08001954                EXTI4_IRQHandler
+                0x08001954                DMA1_Channel3_IRQHandler
+                0x08001954                ETH_IRQHandler
+                0x08001954                TIM1_UP_IRQHandler
+                0x08001954                WWDG_IRQHandler
+                0x08001954                TIM2_IRQHandler
+                0x08001954                OTG_FS_WKUP_IRQHandler
+                0x08001954                TIM1_BRK_IRQHandler
+                0x08001954                EXTI1_IRQHandler
+                0x08001954                RTCAlarm_IRQHandler
+                0x08001954                USART2_IRQHandler
+                0x08001954                I2C2_ER_IRQHandler
+                0x08001954                DMA1_Channel2_IRQHandler
+                0x08001954                CAN1_SCE_IRQHandler
+                0x08001954                FLASH_IRQHandler
+                0x08001954                BusFault_Handler
+                0x08001954                USART1_IRQHandler
+                0x08001954                SPI3_IRQHandler
+                0x08001954                I2C1_ER_IRQHandler
+                0x08001954                DMA2_Channel3_IRQHandler
+ .text.mst_release
+                0x08001956        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj
+ .text.mst_getphy
+                0x08001958       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj
+ .text.mst_getstatus
+                0x08001974       0x24 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj
+ .text.mst_writemultiplesector
+                0x08001998       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj
+ .text.mst_writesector
+                0x080019b0       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj
+ .text.mst_readmultiplesector
+                0x080019c6       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj
+ .text.mst_readsector
+                0x080019de       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj
+ .text.mst_initfunc
+                0x080019f4       0x64 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj
+                0x080019f4                mst_initfunc
+ .text._get8bit
+                0x08001a58       0x26 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ *fill*         0x08001a7e        0x2 
+ .text._f_setcardremoved
+                0x08001a80       0x40 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text._f_drvwritesector
+                0x08001ac0       0x40 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text._f_close_drive_files
+                0x08001b00       0x34 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text._f_drvgetphy
+                0x08001b34       0x3a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text._get16bitl
+                0x08001b6e       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ *fill*         0x08001b7e        0x2 
+ .text.fn_init  0x08001b80       0x34 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08001b80                fn_init
+ .text._f_get16bitl
+                0x08001bb4        0xa BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08001bb4                _f_get16bitl
+ .text._f_set16bitl
+                0x08001bbe        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08001bbe                _f_set16bitl
+ .text._f_get32bitl
+                0x08001bc6       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08001bc6                _f_get32bitl
+ .text._f_set32bitl
+                0x08001bdc       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08001bdc                _f_set32bitl
+ .text._f_checkstatus
+                0x08001bec       0x46 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08001bec                _f_checkstatus
+ .text._f_drvreadsector
+                0x08001c32       0x32 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08001c32                _f_drvreadsector
+ .text._f_writesector
+                0x08001c64       0xec BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08001c64                _f_writesector
+ .text._f_readsector
+                0x08001d50       0xc2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08001d50                _f_readsector
+ .text._f_getmaxcluster
+                0x08001e12       0x1a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08001e12                _f_getmaxcluster
+ .text._f_buildsectors
+                0x08001e2c       0x70 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text._f_fatcache_flush
+                0x08001e9c       0xc2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08001e9c                _f_fatcache_flush
+ .text._f_writefatsector
+                0x08001f5e       0x4e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08001f5e                _f_writefatsector
+ .text._f_getfatsector
+                0x08001fac      0x168 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text._f_setclustervalue
+                0x08002114      0x174 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002114                _f_setclustervalue
+ .text._f_getclustervalue
+                0x08002288      0x118 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002288                _f_getclustervalue
+ .text.fn_createdriver
+                0x080023a0       0x50 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x080023a0                fn_createdriver
+ .text._f_clustertopos
+                0x080023f0       0x44 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x080023f0                _f_clustertopos
+ .text._f_getdecluster
+                0x08002434       0x28 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002434                _f_getdecluster
+ .text._f_setdecluster
+                0x0800245c       0x20 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x0800245c                _f_setdecluster
+ .text.fn_getdrive
+                0x0800247c        0xa BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x0800247c                fn_getdrive
+ *fill*         0x08002486        0x2 
+ .text.fn_chdrive
+                0x08002488       0x2c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002488                fn_chdrive
+ .text._f_initentry
+                0x080024b4       0x44 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x080024b4                _f_initentry
+ .text._f_alloccluster
+                0x080024f8      0x136 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x080024f8                _f_alloccluster
+ *fill*         0x0800262e        0x2 
+ .text._f_dobadblock
+                0x08002630      0x14c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002630                _f_dobadblock
+ .text._f_checklocked
+                0x0800277c       0x70 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x0800277c                _f_checklocked
+ .text._f_checkappendlocked
+                0x080027ec       0x64 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x080027ec                _f_checkappendlocked
+ .text._f_syncfilescontent
+                0x08002850       0x80 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002850                _f_syncfilescontent
+ .text._f_emptywritecache
+                0x080028d0      0x21c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x080028d0                _f_emptywritecache
+ .text._f_allocnextcluster
+                0x08002aec       0xc0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002aec                _f_allocnextcluster
+ .text._f_emptywritebuffer
+                0x08002bac       0xe4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002bac                _f_emptywritebuffer
+ .text._f_removechain
+                0x08002c90       0x7c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002c90                _f_removechain
+ .text._f_updatefileentry
+                0x08002d0c       0x74 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002d0c                _f_updatefileentry
+ .text._f_abortwrite
+                0x08002d80       0x3c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .text._f_checkreadlocked
+                0x08002dbc       0xbc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002dbc                _f_checkreadlocked
+ .text._f_check_handle
+                0x08002e78       0x34 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002e78                _f_check_handle
+ .text.fnGetTask
+                0x08002eac       0x2c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002eac                fnGetTask
+ .text.f_enterFS
+                0x08002ed8       0x54 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002ed8                f_enterFS
+ .text._f_mutex_get
+                0x08002f2c       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002f2c                _f_mutex_get
+ .text._f_getvolume
+                0x08002f5c      0x4b4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08002f5c                _f_getvolume
+ .text.fn_initvolumepartition
+                0x08003410       0x68 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08003410                fn_initvolumepartition
+ .text.fn_initvolume
+                0x08003478       0x50 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08003478                fn_initvolume
+ .text.fn_checkvolume
+                0x080034c8       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x080034c8                fn_checkvolume
+ .text._f_mutex_put
+                0x080034d8       0x1a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x080034d8                _f_mutex_put
+ .text._fn_initseekdivisor
+                0x080034f2       0x6a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x080034f2                _fn_initseekdivisor
+ .text._fn_updateseekpos
+                0x0800355c       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x0800355c                _fn_updateseekpos
+ .text._f_getcurrsector
+                0x0800358c      0x1c8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x0800358c                _f_getcurrsector
+ .text.fn_read  0x08003754      0x234 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08003754                fn_read
+ .text._f_fseek
+                0x08003988      0x264 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08003988                _f_fseek
+ .text._f_syncfiles
+                0x08003bec       0xa0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08003bec                _f_syncfiles
+ .text.fn_write
+                0x08003c8c      0x27c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08003c8c                fn_write
+ .text._f_writezeros
+                0x08003f08       0x5e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08003f08                _f_writezeros
+ *fill*         0x08003f66        0x2 
+ .text.fn_close
+                0x08003f68       0xf0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08003f68                fn_close
+ .text.fn_seek  0x08004058       0xce BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08004058                fn_seek
+ .text._f_findopensize
+                0x08004126        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08004126                _f_findopensize
+ .text.fn_setlasterror
+                0x0800412a        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x0800412a                fn_setlasterror
+ .text.fn_setlasterror_noret
+                0x08004132        0x6 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x08004132                fn_setlasterror_noret
+ .text._f_checknameinv
+                0x08004138       0x70 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text._f_getfilename
+                0x080041a8       0x78 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text._f_nextdirsector
+                0x08004220      0x120 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text._f_readdir
+                0x08004340       0x68 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text._f_seekdir
+                0x080043a8      0x198 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text._f_writedir
+                0x08004540       0xa2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text._f_closedir
+                0x080045e2       0x52 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text._f_getintfile
+                0x08004634       0x8c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text._f_opendir
+                0x080046c0       0x82 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text._f_removelfn
+                0x08004742       0xc0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text._towchar
+                0x08004802       0x20 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x08004802                _towchar
+ .text._fromwchar
+                0x08004822       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x08004822                _fromwchar
+ .text._f_getdirsector
+                0x0800483e       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x0800483e                _f_getdirsector
+ .text._f_writedirsector
+                0x0800486e       0x46 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x0800486e                _f_writedirsector
+ .text._f_addlfn
+                0x080048b4      0x258 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x080048b4                _f_addlfn
+ .text._f_findfile
+                0x08004b0c      0x1c8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text._f_cmp_wname
+                0x08004cd4       0xca BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x08004cd4                _f_cmp_wname
+ .text.isonlydotsandspaces
+                0x08004d9e       0x22 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x08004d9e                isonlydotsandspaces
+ .text.isonlydotordoubledots
+                0x08004dc0       0x24 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x08004dc0                isonlydotordoubledots
+ .text._f_findpath
+                0x08004de4      0x14e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ *fill*         0x08004f32        0x2 
+ .text.fn_wgetdcwd
+                0x08004f34       0xac BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x08004f34                fn_wgetdcwd
+ .text._f_setfsname
+                0x08004fe0      0x17c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .text.fn_wfindnext
+                0x0800515c      0x234 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x0800515c                fn_wfindnext
+ .text.fn_wfindfirst
+                0x08005390       0x78 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x08005390                fn_wfindfirst
+ .text.fn_findfirst
+                0x08005408       0xac BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x08005408                fn_findfirst
+ .text.fn_findnext
+                0x080054b4       0xc8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x080054b4                fn_findnext
+ .text._f_addentry
+                0x0800557c      0xa20 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x0800557c                _f_addentry
+ .text.fn_wopen
+                0x08005f9c      0x706 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x08005f9c                fn_wopen
+ .text.fn_open  0x080066a2       0x26 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x080066a2                fn_open
+ .text.fn_wdelete
+                0x080066c8      0x180 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x080066c8                fn_wdelete
+ .text.fn_delete
+                0x08006848       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                0x08006848                fn_delete
+ .text.fm_initvolume
+                0x08006864       0x32 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+                0x08006864                fm_initvolume
+ .text.fm_checkvolume
+                0x08006896       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+                0x08006896                fm_checkvolume
+ .text.fm_chdrive
+                0x080068c0       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+                0x080068c0                fm_chdrive
+ .text.fm_getdrive
+                0x080068ea       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+                0x080068ea                fm_getdrive
+ .text.fm_findfirst
+                0x08006918       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+                0x08006918                fm_findfirst
+ .text.fm_findnext
+                0x08006946       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+                0x08006946                fm_findnext
+ .text.fm_close
+                0x08006970       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+                0x08006970                fm_close
+ .text.fm_open  0x0800699a       0x2e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+                0x0800699a                fm_open
+ .text.fm_read  0x080069c8       0x36 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+                0x080069c8                fm_read
+ .text.fm_seek  0x080069fe       0x32 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+                0x080069fe                fm_seek
+ .text.fm_delete
+                0x08006a30       0x2c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+                0x08006a30                fm_delete
+ .text.f_getcurrenttimedate
+                0x08006a5c       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/port_f.c.obj
+                0x08006a5c                f_getcurrenttimedate
+ .text.f_mutex_create
+                0x08006a6c        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/port_f.c.obj
+                0x08006a6c                f_mutex_create
+ .text.f_mutex_get
+                0x08006a74       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/port_f.c.obj
+                0x08006a74                f_mutex_get
+ .text.f_mutex_put
+                0x08006a84        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/port_f.c.obj
+                0x08006a84                f_mutex_put
+ .text.fn_gettaskID
+                0x08006a8c        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/port_f.c.obj
+                0x08006a8c                fn_gettaskID
+ .text.scsi_cmd_request_sense
+                0x08006a90      0x14c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+ .text.scsi_cmd_test_unit_ready
+                0x08006bdc       0x80 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+ .text.scsi_init
+                0x08006c5c       0x24 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+                0x08006c5c                scsi_init
+ .text.scsi_open_device
+                0x08006c80      0x10c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+                0x08006c80                scsi_open_device
+ .text.scsi_close_device
+                0x08006d8c       0x44 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+                0x08006d8c                scsi_close_device
+ .text.scsi_cmd_read
+                0x08006dd0      0x128 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+                0x08006dd0                scsi_cmd_read
+ .text.scsi_cmd_write
+                0x08006ef8      0x128 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+                0x08006ef8                scsi_cmd_write
+ .text.scsi_get_unit_state
+                0x08007020      0x188 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+                0x08007020                scsi_get_unit_state
+ .text.scsi_get_lun_info
+                0x080071a8       0x40 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+                0x080071a8                scsi_get_lun_info
+ .text.mst_check
+                0x080071e8       0x4c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+ .text.mst_disconnect
+                0x08007234       0x24 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+ .text.usb_mst_state
+                0x08007258       0x12 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+                0x08007258                usb_mst_state
+ .text.usb_clear_stall_rd
+                0x0800726a       0x16 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+ .text.usb_mst_soft_reset_recovery
+                0x08007280       0x4e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+ *fill*         0x080072ce        0x2 
+ .text.usb_mst_transfer
+                0x080072d0      0x230 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+                0x080072d0                usb_mst_transfer
+ .text.usb_mst_getnlun
+                0x08007500       0x48 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+                0x08007500                usb_mst_getnlun
+ .text.mst_connect
+                0x08007548       0x6c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+ .text.usb_mst_init
+                0x080075b4       0x38 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+                0x080075b4                usb_mst_init
+ .text._pmgr_decode_ifc_hdl
+                0x080075ec       0x4c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .text._pmgr_connect
+                0x08007638       0xac BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .text.pmgr_pcd_task
+                0x080076e4      0x4b8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+                0x080076e4                pmgr_pcd_task
+ .text.pmgr_get_dev_state
+                0x08007b9c       0x2a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+                0x08007b9c                pmgr_get_dev_state
+ *fill*         0x08007bc6        0x2 
+ .text.pmgr_add_cd
+                0x08007bc8       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+                0x08007bc8                pmgr_add_cd
+ .text.pmgr_add_hub
+                0x08007bf8       0x38 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+                0x08007bf8                pmgr_add_hub
+ .text.pmgr_init
+                0x08007c30       0x80 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+                0x08007c30                pmgr_init
+ .text.pmgr_start
+                0x08007cb0        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+                0x08007cb0                pmgr_start
+ .text._stm32uh_pop
+                0x08007cb4       0x26 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ *fill*         0x08007cda        0x2 
+ .text._stm32uh_free_channel
+                0x08007cdc       0x38 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .text._stm32uh_remove_transfer
+                0x08007d14       0xb4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .text._stm32uh_transfer_start
+                0x08007dc8       0x74 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .text._stm32uh_transfer_init
+                0x08007e3c       0x88 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .text.stm32uh_isr_handler
+                0x08007ec4      0x520 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+                0x08007ec4                stm32uh_isr_handler
+ .text.stm32uh_add_ep
+                0x080083e4       0xe4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+                0x080083e4                stm32uh_add_ep
+ .text.stm32uh_del_daddr
+                0x080084c8       0xac BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+                0x080084c8                stm32uh_del_daddr
+ .text.stm32uh_clear_toggle
+                0x08008574       0x48 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+                0x08008574                stm32uh_clear_toggle
+ .text.stm32uh_transfer_task
+                0x080085bc       0x60 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+                0x080085bc                stm32uh_transfer_task
+ .text.stm32uh_transfer_status
+                0x0800861c       0x34 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+                0x0800861c                stm32uh_transfer_status
+ .text.stm32uh_transfer
+                0x08008650      0x180 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+                0x08008650                stm32uh_transfer
+ .text.stm32uh_delay
+                0x080087d0       0x50 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+                0x080087d0                stm32uh_delay
+ .text.stm32uh_set_ep0_speed_hub
+                0x08008820       0x38 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+                0x08008820                stm32uh_set_ep0_speed_hub
+ .text.stm32uh_get_ep_inf
+                0x08008858       0x50 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+                0x08008858                stm32uh_get_ep_inf
+ .text.stm32uh_init
+                0x080088a8       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+                0x080088a8                stm32uh_init
+ .text.stm32uh_start
+                0x080088d8       0xc4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+                0x080088d8                stm32uh_start
+ .text.stm32uh_hub_port_disable
+                0x0800899c       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+ .text.stm32uh_hub_suspend
+                0x080089b0       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+ .text.stm32uh_hub_scan
+                0x080089c4       0x64 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+ .text.stm32uh_hub_resume
+                0x08008a28       0x34 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+ .text.stm32uh_hub_port_reset
+                0x08008a5c       0xa8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+ .text.stm32uh_hub_isr
+                0x08008b04       0x24 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+                0x08008b04                stm32uh_hub_isr
+ .text.stm32uh_hub_init
+                0x08008b28       0x50 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+                0x08008b28                stm32uh_hub_init
+ .text.stm32uh_hub_start
+                0x08008b78       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+                0x08008b78                stm32uh_hub_start
+ .text.stm32uh_hub_connected
+                0x08008b8c       0x20 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+                0x08008b8c                stm32uh_hub_connected
+ .text.stm32uh_hw_init
+                0x08008bac       0x40 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hw.c.obj
+                0x08008bac                stm32uh_hw_init
+ .text.stm32uh_hw_start
+                0x08008bec       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hw.c.obj
+                0x08008bec                stm32uh_hw_start
+ .text.stm32uh_hw_state
+                0x08008bfc        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hw.c.obj
+                0x08008bfc                stm32uh_hw_state
+ .text.usbh_receive_control_b
+                0x08008c08       0x80 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_host.c.obj
+                0x08008c08                usbh_receive_control_b
+ .text.usbh_send_control_b
+                0x08008c88       0x7a BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_host.c.obj
+                0x08008c88                usbh_send_control_b
+ .text.usbh_receive_b
+                0x08008d02       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_host.c.obj
+                0x08008d02                usbh_receive_b
+ .text.usbh_send_b
+                0x08008d32       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_host.c.obj
+                0x08008d32                usbh_send_b
+ .text.usbh_init
+                0x08008d62       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_host.c.obj
+                0x08008d62                usbh_init
+ .text.usbh_start
+                0x08008d72       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_host.c.obj
+                0x08008d72                usbh_start
+ .text.clear_stall
+                0x08008d82       0x86 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+                0x08008d82                clear_stall
+ .text.get_dev_info
+                0x08008e08       0xbc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+                0x08008e08                get_dev_info
+ .text.get_cfg_desc
+                0x08008ec4       0x80 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+                0x08008ec4                get_cfg_desc
+ .text.set_config
+                0x08008f44       0x52 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+                0x08008f44                set_config
+ .text.set_address
+                0x08008f96       0x52 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+                0x08008f96                set_address
+ .text.get_ep0_max_packet_size
+                0x08008fe8       0x68 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+                0x08008fe8                get_ep0_max_packet_size
+ .text.get_next_descriptor
+                0x08009050       0x28 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+                0x08009050                get_next_descriptor
+ .text.get_cfg_info
+                0x08009078       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+                0x08009078                get_cfg_info
+ .text.get_ifc_info
+                0x08009094       0x1e BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+                0x08009094                get_ifc_info
+ .text.get_ep_info
+                0x080090b2       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+                0x080090b2                get_ep_info
+ .text.OTG_FS_IRQHandler
+                0x080090ca        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x080090ca                OTG_FS_IRQHandler
+ .text.os_idle  0x080090cc       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x080090cc                os_idle
+ .text.os_isr_init
+                0x080090dc       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x080090dc                os_isr_init
+ .text.os_isr_enable
+                0x080090f4       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x080090f4                os_isr_enable
+ .text.os_mutex_create
+                0x08009104       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x08009104                os_mutex_create
+ .text.os_mutex_get
+                0x08009134       0x22 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x08009134                os_mutex_get
+ .text.os_mutex_put
+                0x08009156       0x10 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x08009156                os_mutex_put
+ *fill*         0x08009166        0x2 
+ .text.os_event_create
+                0x08009168       0x40 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x08009168                os_event_create
+ .text.os_event_get
+                0x080091a8       0x24 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x080091a8                os_event_get
+ .text.os_event_set
+                0x080091cc        0xc BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x080091cc                os_event_set
+ .text.os_event_set_int
+                0x080091d8       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x080091d8                os_event_set_int
+ .text.os_delay
+                0x080091f0       0x28 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x080091f0                os_delay
+ .text.os_init  0x08009218       0x48 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x08009218                os_init
+ .text.memset   0x08009260       0x88 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memset.o)
+                0x08009260                memset
+ .text.strncpy  0x080092e8       0x70 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strncpy.o)
+                0x080092e8                strncpy
+ .text.critical_factorization
+                0x08009358       0xcc C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strstr.o)
+ .text.two_way_long_needle
+                0x08009424      0x214 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strstr.o)
+ .text.strstr   0x08009638      0x154 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strstr.o)
+                0x08009638                strstr
+ .text.strcpy   0x0800978c       0xbc C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strcpy.o)
+                0x0800978c                strcpy
+ .text          0x08009848       0xec C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+                0x08009848                memcpy
+ .text.strlen   0x08009934       0x5c C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strlen-stub.o)
+                0x08009934                strlen
+ .text.memcmp   0x08009990       0x84 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcmp.o)
+                0x08009990                memcmp
+ .text.strchr   0x08009a14       0xd0 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strchr.o)
+                0x08009a14                strchr
+ .text.strnlen  0x08009ae4       0x20 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strnlen.o)
+                0x08009ae4                strnlen
+ *(.rodata*)
+ .rodata.Boot_CheckBINFileInformation.str1.4
+                0x08009b04       0x37 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                                  0x2 (size before relaxing)
+ .rodata.Boot_SearchBINfile.str1.4
+                0x08009b3b        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                                  0x6 (size before relaxing)
+ .rodata.Boot_usbmain.str1.4
+                0x08009b3b        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                                 0x2b (size before relaxing)
+ *fill*         0x08009b3b        0x1 
+ .rodata.UpdateMsg
+                0x08009b3c       0x77 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x08009b3c                UpdateMsg
+ *fill*         0x08009bb3        0x1 
+ .rodata.Boot_ModuleNo
+                0x08009bb4       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x08009bb4                Boot_ModuleNo
+ .rodata.Boot_ModuleName
+                0x08009bc8       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x08009bc8                Boot_ModuleName
+ .rodata.Boot_McuType
+                0x08009bdc       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x08009bdc                Boot_McuType
+ .rodata.Boot_Manufacture
+                0x08009bf0       0x34 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x08009bf0                Boot_Manufacture
+ .rodata.mst_cd_ep_dsc
+                0x08009c24        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+ .rodata        0x08009c28        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+ *(.glue_7)
+ .glue_7        0x08009c30        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x08009c30        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+
+.vfp11_veneer   0x08009c30        0x0
+ .vfp11_veneer  0x08009c30        0x0 linker stubs
+
+.v4_bx          0x08009c30        0x0
+ .v4_bx         0x08009c30        0x0 linker stubs
+
+.iplt           0x08009c30        0x0
+ .iplt          0x08009c30        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+
+.userinfo       0x0803fe00       0x98
+ *(.userinfo)
+ .userinfo      0x0803fe00       0x98 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x0803fe00                UserInfo
+
+.ARM.extab
+ *(.ARM.extab*)
+
+.ARM.exidx      0x0803fe98        0x8
+                0x0803fe98                        __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x0803fe98        0x8 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+                0x0803fea0                        __exidx_end = .
+                0x0803fea0                        _sidata = LOADADDR (.data)
+
+.rel.dyn        0x0803fea0        0x0
+ .rel.iplt      0x0803fea0        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+
+.data           0x20000000        0x4 load address 0x0803fea0
+                0x20000000                        _sdata = .
+ *(.data*)
+ .data.np_pos.0
+                0x20000000        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+                0x20000004                        _edata = .
+
+.igot.plt       0x20000004        0x0 load address 0x0803fea4
+ .igot.plt      0x20000004        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+
+.bss            0x20000004     0x36b4 load address 0x0803fea4
+                0x20000004                        _sbss = .
+ *(.bss*)
+ .bss.CheckTime
+                0x20000004        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x20000004                CheckTime
+ .bss.TempFilename
+                0x20000008      0x100 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                0x20000008                TempFilename
+ .bss.BootLCM_DelayTimeCount
+                0x20000108        0x2 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+                0x20000108                BootLCM_DelayTimeCount
+ *fill*         0x2000010a        0x2 
+ .bss.BootLCMStatus
+                0x2000010c        0x1 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+                0x2000010c                BootLCMStatus
+ *fill*         0x2000010d        0x3 
+ .bss.mst_driver
+                0x20000110       0xc0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj
+ .bss.g_multi   0x200001d0      0x114 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x200001d0                g_multi
+ .bss.fat_gmutex
+                0x200002e4        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x200002e4                fat_gmutex
+ .bss.f_filesystem
+                0x200002e8     0x2cc8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                0x200002e8                f_filesystem
+ .bss.lunid     0x20002fb0        0x8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+ .bss.scsi_dsc  0x20002fb8      0x100 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+ .bss.tag.0     0x200030b8        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+ .bss.mst_info  0x200030bc       0x30 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+                0x200030bc                mst_info
+ .bss.pmgr_event_bit
+                0x200030ec        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+                0x200030ec                pmgr_event_bit
+ .bss.daddr2port_dsc
+                0x200030f0       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .bss.port_dsc  0x20003104      0x1b8 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .bss.cd_dsc    0x200032bc       0x14 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .bss.hub_dsc   0x200032d0       0x18 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .bss.hub_scan_inf
+                0x200032e8        0xa BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ *fill*         0x200032f2        0x2 
+ .bss.p_sched_n.1
+                0x200032f4        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .bss.stm32uh_event_bit
+                0x200032f8        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .bss.stm32uh_mutex
+                0x200032fc        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .bss.c_uht     0x20003300       0x1c BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .bss.sched_int_state
+                0x2000331c        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .bss.np_pending_ed_cnt
+                0x20003320        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .bss.pending_ed
+                0x20003324       0x20 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .bss.ch_ed     0x20003344        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .bss.ed        0x20003348      0x150 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .bss.cstate.0  0x20003498        0x1 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+ *fill*         0x20003499        0x3 
+ .bss.connected
+                0x2000349c        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+ .bss._suspend  0x200034a0        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hw.c.obj
+ .bss.dbuf      0x200034a4      0x1ff BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+ *fill*         0x200036a3        0x1 
+ .bss.isr_handler
+                0x200036a4        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+ .bss.mutex_used
+                0x200036a8        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x200036a8                mutex_used
+ .bss.mutex     0x200036ac        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x200036ac                mutex
+ .bss.event_used
+                0x200036b0        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x200036b0                event_used
+ .bss.event     0x200036b4        0x4 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                0x200036b4                event
+ *(COMMON)
+                0x200036b8                        _ebss = .
+
+._user_heap_stack
+                0x200036b8     0x2000 load address 0x0803fea4
+                0x200036b8                        . = ALIGN (0x8)
+                [!provide]                        PROVIDE (end = .)
+                0x200046b8                        . = (. + _Min_Heap_Size)
+ *fill*         0x200036b8     0x1000 
+                0x200056b8                        . = (. + _Min_Stack_Size)
+ *fill*         0x200046b8     0x1000 
+                0x200056b8                        . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+OUTPUT(BootAPI\white_simulator_bootloader.elf elf32-littlearm)
+LOAD linker stubs
+LOAD C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a
+LOAD C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
+LOAD C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a
+
+.comment        0x00000000       0x45
+ .comment       0x00000000       0x45 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Bootflash.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Stm32GPIO.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/port_f.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hw.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_host.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+                                 0x46 (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x2b
+ .ARM.attributes
+                0x00000000       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Boot.c.obj
+ .ARM.attributes
+                0x0000002d       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Bootflash.c.obj
+ .ARM.attributes
+                0x0000005a       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/BootLCM.c.obj
+ .ARM.attributes
+                0x00000087       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/src/Stm32GPIO.c.obj
+ .ARM.attributes
+                0x000000b4       0x21 BootAPI/CMakeFiles/white_simulator_bootloader.dir/daa85f0c95b0915ea589caa81afa7ebe/startup/gcc_ride7/startup_stm32f10x_cl.s.obj
+ .ARM.attributes
+                0x000000d5       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/mst/mst.c.obj
+ .ARM.attributes
+                0x00000102       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/common.c.obj
+ .ARM.attributes
+                0x0000012f       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_lfn.c.obj
+ .ARM.attributes
+                0x0000015c       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/fat_m.c.obj
+ .ARM.attributes
+                0x00000189       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/fat/src/common/port_f.c.obj
+ .ARM.attributes
+                0x000001b6       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/scsi.c.obj
+ .ARM.attributes
+                0x000001e3       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_driver/mst/usb_mst.c.obj
+ .ARM.attributes
+                0x00000210       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/pmgr/pmgr.c.obj
+ .ARM.attributes
+                0x0000023d       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh.c.obj
+ .ARM.attributes
+                0x0000026a       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hub.c.obj
+ .ARM.attributes
+                0x00000297       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/stm32uh/stm32uh_hw.c.obj
+ .ARM.attributes
+                0x000002c4       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_host.c.obj
+ .ARM.attributes
+                0x000002f1       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/usb_host/usb_utils.c.obj
+ .ARM.attributes
+                0x0000031e       0x2d BootAPI/CMakeFiles/white_simulator_bootloader.dir/__/Libraries/FileSystem/os/nrtos/os_nrtos.c.obj
+ .ARM.attributes
+                0x0000034b       0x2d C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000378       0x2d C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strncpy.o)
+ .ARM.attributes
+                0x000003a5       0x2d C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strstr.o)
+ .ARM.attributes
+                0x000003d2       0x2d C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strcpy.o)
+ .ARM.attributes
+                0x000003ff       0x1b C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+ .ARM.attributes
+                0x0000041a       0x2d C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strlen-stub.o)
+ .ARM.attributes
+                0x00000447       0x2d C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcmp.o)
+ .ARM.attributes
+                0x00000474       0x2d C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strchr.o)
+ .ARM.attributes
+                0x000004a1       0x2d C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strnlen.o)
+
+.debug_frame    0x00000000      0x230
+ .debug_frame   0x00000000       0x2c C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memset.o)
+ .debug_frame   0x0000002c       0x28 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strncpy.o)
+ .debug_frame   0x00000054       0xf4 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strstr.o)
+ .debug_frame   0x00000148       0x20 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strcpy.o)
+ .debug_frame   0x00000168       0x28 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+ .debug_frame   0x00000190       0x20 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strlen-stub.o)
+ .debug_frame   0x000001b0       0x2c C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcmp.o)
+ .debug_frame   0x000001dc       0x34 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strchr.o)
+ .debug_frame   0x00000210       0x20 C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-strnlen.o)
+
+.debug_line_str
+                0x00000000       0xdf
+ .debug_line_str
+                0x00000000       0xdf C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)

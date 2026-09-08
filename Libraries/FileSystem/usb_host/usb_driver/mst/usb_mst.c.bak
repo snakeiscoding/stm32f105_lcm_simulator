@@ -1,0 +1,488 @@
+/***************************************************************************
+ *
+ *            Copyright (c) 2003-2007 by HCC Embedded
+ *
+ * This software is copyrighted by and is the sole property of
+ * HCC.  All rights, title, ownership, or other interests
+ * in the software remain the property of HCC.  This
+ * software may only be used in accordance with the corresponding
+ * license agreement.  Any unauthorized use, duplication, transmission,
+ * distribution, or disclosure of this software is expressly forbidden.
+ *
+ * This Copyright notice may not be removed or modified without prior
+ * written consent of HCC.
+ *
+ * HCC reserves the right to modify this software without notice.
+ *
+ * HCC Embedded
+ * Budapest 1133
+ * Vaci Ut 110
+ * Hungary
+ *
+ * Tel:  +36 (1) 450 1302
+ * Fax:  +36 (1) 450 1303
+ * http: www.hcc-embedded.com
+ * email: info@hcc-embedded.com
+ *
+ ***************************************************************************/
+#include "scsi.h"
+#include "usb_mst.h"
+#include "usb_host.h"
+#include "usb_utils.h"
+#include "pmgr.h"
+
+
+#define MST_CLASS		  0x08
+#define MST_SCLASS		0x06
+#define MST_ALTSCLASS	0x05
+#define MST_PROTOCOL	0x50
+
+#define USB_RETRY_COUNT 3
+
+typedef enum {
+  msterr_none,
+  msterr_comunication_error
+} mst_error_t;
+
+
+#define EP0		0
+#define IN		1
+#define OUT		2
+static const t_cd_ep_dsc mst_cd_ep_dsc[4] = {
+  3,
+  USBH_EP_DSC(USBH_TYPE_CONTROL,0),
+  USBH_EP_DSC(USBH_TYPE_BULK,USBH_DIR_IN),
+  USBH_EP_DSC(USBH_TYPE_BULK,USBH_DIR_OUT)
+};
+
+typedef struct {
+  hcc_u8 mst_device;
+  void *ifc_hdl;
+  void *ep_hdl[3];
+  hcc_u8 nlun;
+  mst_error_t mst_error;
+} t_mst_info;
+t_mst_info mst_info[SCSI_MAX_DEVICE];
+
+int usb_mst_getnlun(t_mst_info *mi);
+
+/* class specific requests */
+#define RQMST_MASS_STORAGE_RESET   0xffu
+#define RQMST_GET_MAX_LUN          0xfeu
+
+
+/*
+** mst_check
+**
+** Check whether current interface is mass storage
+**
+** Input: dev_inf - device info
+**        port_hdl - port handler
+**        ifc_info - interface info
+** Output: dev_hdl - device handler
+** Return: NULL - not found
+**         otherwise pointer to ep_hdl array
+*/
+static void **mst_check (void **dev_hdl, void *port_hdl, device_info_t *dev_inf, ifc_info_t *ifc_inf)
+{
+  (void)port_hdl;
+  (void)dev_inf;
+  if (ifc_inf->_class==MST_CLASS
+      && (ifc_inf->sclass==MST_SCLASS || ifc_inf->sclass==MST_ALTSCLASS)
+      && ifc_inf->protocol==MST_PROTOCOL)
+  {
+    hcc_uint i;
+    for (i=0;i<SCSI_MAX_DEVICE && mst_info[i].mst_device;i++)
+      ;
+    if (i<SCSI_MAX_DEVICE)
+    {
+      *dev_hdl=mst_info+i;
+      return mst_info[i].ep_hdl;
+    }
+  }
+  return NULL;
+}
+
+
+
+/*
+** mst_connect
+**
+** Connect mass storage device
+** Callback function for port manager class driver handler.
+**
+** Input: dev_hdl - device handler
+**        ifc_hdl - port handler
+** Return: USBH_SUCCESS - if found
+**         USBH_ERR_NOT_AVAILABLE - not found
+*/
+static int mst_connect (void *dev_hdl, void *ifc_hdl)
+{
+  t_mst_info *mi=(t_mst_info *)dev_hdl;
+  if (mi->ep_hdl[EP0] && mi->ep_hdl[IN] && mi->ep_hdl[OUT])
+  {
+    mi->mst_error=msterr_none;
+    mi->nlun=(hcc_u8)(usb_mst_getnlun(mi)+1u);
+    if (mi->nlun==0) return USBH_ERR_NOT_AVAILABLE;
+
+    if (scsi_open_device((hcc_u8)(mi-mst_info),mi->nlun,usb_mst_transfer,usb_mst_state,dev_hdl)==0)
+    {
+      mi->mst_device=1;
+      mi->ifc_hdl=ifc_hdl;
+      return USBH_SUCCESS;
+    }
+  }
+  return USBH_ERR_NOT_AVAILABLE;
+}
+
+
+/*
+** mst_disconnect
+**
+** Input: dev_hdl - device handler
+**
+** Callback function for usb host class driver handler.
+*/
+static int mst_disconnect (void *dev_hdl)
+{
+  t_mst_info *mi=(t_mst_info *)dev_hdl;
+  mi->mst_device=0;
+  scsi_close_device((hcc_u8)(mi-mst_info));
+  return USBH_SUCCESS;
+}
+
+
+
+
+
+static int usb_mst_reset(t_mst_info *mi)
+{
+  unsigned char setup[8]={
+    (0<<7) | (1<<5) | 1       /*out, class specific, to interface */
+    ,RQMST_MASS_STORAGE_RESET /* command */
+    ,0,0                      /* value = 0 */
+    ,0,0                      /* index = 0 */
+    ,0,0                      /* length = 0 */
+  };
+
+  mi->mst_error=msterr_none;
+  if (usbh_send_control_b(mi->ep_hdl[EP0],(hcc_u8 *)setup,NULL,0,NULL)!=USBH_SUCCESS)
+  {
+    mi->mst_error=msterr_comunication_error;
+    return 1;
+  }
+
+  return 0;
+}
+
+static int usb_clear_stall_rd(t_mst_info *mi)
+{
+  if (clear_stall(mi->ep_hdl[EP0],mi->ep_hdl[IN])!=USBH_SUCCESS)
+  {
+    mi->mst_error=msterr_comunication_error;
+    return 1;
+  }
+  return 0;
+}
+
+static int usb_clear_stall_wr(t_mst_info *mi)
+{
+  if (clear_stall(mi->ep_hdl[EP0],mi->ep_hdl[OUT])!=USBH_SUCCESS)
+  {
+    mi->mst_error=msterr_comunication_error;
+    return 1;
+  }
+  return 0;
+}
+
+int usb_mst_getnlun(t_mst_info *mi)
+{
+  unsigned char nlun=0;
+  int rc;
+
+  unsigned char setup[8]={
+    (1<<7) | (1<<5) | 1       /* in, class specific, to interface */
+    ,RQMST_GET_MAX_LUN        /* command */
+    ,0,0                      /* value = 0 */
+    ,0,0                      /* index = 0 */
+    ,1,0                      /* length = 1 */
+  };
+  mi->mst_error=msterr_none;
+  rc=usbh_receive_control_b(mi->ep_hdl[EP0],(hcc_u8 *)setup,&nlun,1,NULL);
+  if (rc!=USBH_SUCCESS && rc!=USBH_ERR_TRANSFER)
+  {
+    mi->mst_error=msterr_comunication_error;
+    return -1;
+  }
+  return nlun;
+}
+
+
+/*
+** Initialize mass storage module
+*/
+int usb_mst_init (void)
+{
+  unsigned int i;
+  for (i=0;i<SCSI_MAX_DEVICE;mst_info[i++].mst_device=0)
+    ;
+  scsi_init();
+  return pmgr_add_cd(mst_check,mst_connect,mst_disconnect,NULL,(t_cd_ep_dsc *)&mst_cd_ep_dsc);
+}
+
+
+/*
+** Suspend
+*/
+int usb_mst_suspend (hcc_u8 dev)
+{
+  t_mst_info *mi=mst_info+dev;
+  return pmgr_suspend(mi->ifc_hdl);
+}
+
+/*
+** Resume
+*/
+int usb_mst_resume (hcc_u8 dev)
+{
+  t_mst_info *mi=mst_info+dev;
+  return pmgr_resume(mi->ifc_hdl);
+}
+
+
+static int usb_mst_soft_reset_recovery(t_mst_info *mi)
+{
+  /* Send "soft" reset. (request on ep 0)*/
+  if (usb_mst_reset(mi))
+  {
+    return(ERR_IO_REMOVED);
+  }
+  /* Clear stall on bulk in */
+  if (usb_clear_stall_rd(mi))
+  {
+    return(ERR_IO_REMOVED);
+  }
+  /* Clear stall on bulk out */
+  if (usb_clear_stall_wr(mi))
+  {
+    return(ERR_IO_REMOVED);
+  }
+  return(0);
+}
+
+
+/*
+** Get current state of the device.
+** RETURN: USBH_CONNECTED/USBH_DISCONNECTED/USBH_CHANGED
+*/
+hcc_u8 usb_mst_state (void *dev_hdl)
+{
+  t_mst_info *mi=(t_mst_info *)dev_hdl;
+  if (mi->mst_device==0) return USBH_STATE_DISCONNECTED;
+  return pmgr_get_dev_state(mi->ifc_hdl);
+}
+
+
+/*
+** MST transfer
+*/
+int usb_mst_transfer(void *dev_hdl, hcc_u8 cmd_length, void *cmd, hcc_u8 dir, hcc_u32 buf_length, void *buf)
+{
+  t_mst_info *mi=(t_mst_info *)dev_hdl;
+  hcc_u8 cbw[31];
+  hcc_u8 csw[13];
+  int retry_cmd,retry_csw;
+  hcc_u32 r;
+  static hcc_u32 tag=0x0;
+  int rc=ERR_IO_NONE;
+
+
+  /* Clear SCSI part of CBW. (Other bytes will be set allways.) */
+  for(r=0; r<16; r++) cbw[15+r]=0;
+
+  /* Create command block wrapper. */
+    /* Signature */
+  WR_BE32(cbw, 0x55534243)
+    ;
+   /* tag. */
+  tag++;
+  WR_LE32(cbw+4, tag)
+    ;
+  /* Transfer length */
+  WR_LE32(&cbw[8], buf_length)
+    ;
+  /* bmCBWFlags */
+  cbw[12]=(hcc_u8)(dir ? 0x80 : 0);
+  /* bmCBWLun */
+  cbw[13]=(hcc_u8)(((char *)cmd)[1] >> 5);
+  /* bCBWCBLength */
+  cbw[14]=cmd_length;
+  for(r=0; r<cmd_length; r++)
+      {
+      cbw[15+r]=*((hcc_u8*)cmd+r);
+      }
+
+  for (retry_cmd=USB_RETRY_COUNT;retry_cmd;retry_cmd--)
+  {
+    if (usbh_send_b(mi->ep_hdl[OUT],(hcc_u8 *)cbw,31,NULL,USBH_TIMEOUT_BULK)!=USBH_SUCCESS)
+    {/* Command write error. Spec says we shall do reset recovery. So do it
+        and retry. */
+      if (retry_cmd)
+      {
+        if (usb_mst_soft_reset_recovery(mi)!=ERR_IO_REMOVED) continue;
+      }
+      else
+      {
+        rc=ERR_IO_REMOVED;
+        break;
+      }
+    }
+
+    /* send/read data if needed */
+    if (buf_length && dir!=DIR_NONE)
+    {
+      switch(dir)
+      {
+        case DIR_IN: /* transfer data to host */
+          if (usbh_receive_b(mi->ep_hdl[IN],(hcc_u8 *)buf,buf_length,NULL,USBH_TIMEOUT_BULK)!=USBH_SUCCESS)
+          {
+            /* Less data read than expected. In this state the spec says, the device may
+              stall its endpoint to stop the transfer. Another way is if the device sends a
+              short packet.
+              Since on windows we don't know if the endpoint is stalled or not, we send a
+              CLEAR_FEATURE ENDPOINT_HALT request to the endpoint anyway. Though this is not
+              neccessary in the sencond case, it can not harm. After this we continue to the
+              status stage, to see what happend. */
+            usb_clear_stall_rd(mi);
+          }
+          break;
+        case DIR_OUT: /* transfer data to device */
+          if (usbh_send_b(mi->ep_hdl[OUT],(hcc_u8 *)buf,buf_length,NULL,USBH_TIMEOUT_BULK)!=USBH_SUCCESS)
+          {
+            /* Data write failed. If the device is still connected, the only way this may
+              happen, if the device stalled its input endpoint.
+              Clear stall, and continue to the status stage to see what happend. */
+            usb_clear_stall_wr(mi);
+          }
+          break;
+        default:
+                 ;
+      }
+    }
+
+
+    for (retry_csw=0;retry_csw<2;retry_csw++)
+    {
+      /* Is there a read error? */
+      if (usbh_receive_b(mi->ep_hdl[IN],(hcc_u8 *)csw,13,NULL,USBH_TIMEOUT_BULK)!=USBH_SUCCESS)
+      {
+        /* Spec says, if the in endpoint is stalled, then we need to unstall it, and
+           retry reding the CSW.
+           On windows we don't know if the endpoint is stalled or not. So we try to
+           unstall it (which may not harm), and retry. */
+        usb_clear_stall_rd(mi);
+      }
+      else break;
+    }
+
+    if (retry_csw==2)
+    {
+      if (retry_cmd)
+      {
+        if (usb_mst_soft_reset_recovery(mi)!=ERR_IO_REMOVED) continue;
+      }
+      /* If the transfer is retried but still unsuccesfull, then
+         we threat the device as removed. */
+      rc=ERR_IO_REMOVED;
+      break;
+    }
+
+    /* Process csw. */
+      /* Check the signature and the TAG. */
+    if (0x55534253 != RD_BE32(csw) || tag != RD_LE32(csw+4))
+    { /* CSW is invalid.
+         Spec says, we shall do reset recovery here and thus make the device ready to
+         process the next CBW. Ok, we recover, and as "next command" retry the
+         transfer. */
+      if (retry_cmd)
+      {
+        if (usb_mst_soft_reset_recovery(mi)!=ERR_IO_REMOVED) continue;
+      }
+      /* If we retried enough times, we treat the device as disconnected. */
+      rc=ERR_IO_REMOVED;
+      break;
+    }
+
+      /* Check if the CSW is meaningful. */
+    if ( (csw[12]<2 && (buf_length && RD_LE32(csw+8)>buf_length))
+        || csw[12]>=2 )
+    { /* CSW is not meaning full. The specification does specified how to handle
+         this situation. We threat this the same as if the CSW would be invalid. */
+      if (retry_cmd)
+      {
+        if (usb_mst_soft_reset_recovery(mi)!=ERR_IO_REMOVED) continue;
+      }
+      /* If we retried enough times, we treat the device as disconnected. */
+      rc=ERR_IO_REMOVED;
+      break;
+    }
+
+    /* Check transfer status. */
+    if (csw[12] == 2)
+    { /* Device detected a phase error. Spec says, we shall do a reset recovery.
+         After that, we retry. */
+      if (retry_cmd)
+      {
+        if (usb_mst_soft_reset_recovery(mi)!=ERR_IO_REMOVED) continue;
+      }
+      /* If we retried enough times, we treat the device as disconnected. */
+      rc=ERR_IO_REMOVED;
+      return rc;
+    }
+
+    /* If the device reports no error, but some part of the buffer could not
+       be processed by it, we will start another transfer with modified
+       buffer pointer and length. (e.g. send/read the unprocessed data
+       again. */
+    if (csw[12] == 0 && RD_LE32(&csw[8]) != 0)
+    { 
+      /* Modify buffer pointer and length. */
+      //buf=((hcc_u8*)buf)+buf_length-RD_LE32(&csw[8]);
+      //buf_length -= RD_LE32(&csw[8]);
+      /* Retry. Note: we will not count number of retryes here, since the
+         device may send it's data in any number of parts. This is a bit
+         dangerous, since a faulty device may get us into an endless loop. */
+      //++retry_cmd;
+      //continue;
+      // Modify by Johnson Fitness kunlung
+      if( buf_length <= RD_LE32(&csw[8] ) )
+          break ;
+      else
+          {
+          /* Modify buffer pointer and length. */
+          buf=((hcc_u8*)buf)+buf_length-RD_LE32(&csw[8]);
+          buf_length -= RD_LE32(&csw[8]);
+          /* Retry. Note: we will not count number of retryes here, since the
+             device may send it's data in any number of parts. This is a bit
+             dangerous, since a faulty device may get us into an endless loop. */
+          ++retry_cmd;
+          continue;
+          }
+      //
+    }
+
+    /* Device returned check condition status. */
+    if (csw[12] == 1)
+    {
+      /* Upper layer shall decide if a retry is needed or possible or not. */
+      rc=ERR_IO_CHECK;
+      break;
+    }
+
+    break;
+  }
+
+  return rc;
+}
+
+
