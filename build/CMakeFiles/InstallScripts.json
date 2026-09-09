@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/johnsonhealthtech-stm32f105-lcb-simulator/build/cmake_install.cmake",
-		"C:/Users/frankhung/FrankWork/_Project_build/GCC_IAR9_simulator_build/johnsonhealthtech-stm32f105-lcb-simulator/build/BootAPI/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

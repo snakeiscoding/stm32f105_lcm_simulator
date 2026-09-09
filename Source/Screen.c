@@ -1,5 +1,5 @@
 
-#include  "pindefine.h"
+#include  "PinDefine.h"
 #include  "Screen.h"
 #include  "LCMDisplay.h"
 #include  "LCBSimulator.h"

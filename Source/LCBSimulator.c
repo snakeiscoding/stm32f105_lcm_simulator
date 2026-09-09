@@ -12,9 +12,9 @@
   */
 
 /* Includes ------------------------------------------------------------------*/
-#include  "pindefine.h"
+#include  "PinDefine.h"
 #include  "JHTLCBComm.h"
-#include  "JHTCOMMAND.H"
+#include  "JHTCOMMAND.h"
 #include  "LCBSimulator.h"
 #include  "EE93CXX.h"
 #include  "Screen.h"

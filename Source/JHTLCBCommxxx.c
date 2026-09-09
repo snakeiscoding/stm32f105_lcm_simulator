@@ -8,7 +8,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include  "PinDefine.h"
 #include  "JHTLCBComm.h"
-#include  "JHTCOMMAND.H"
+#include  "JHTCOMMAND.h"
 #include  "Errorcode.h"
 #include  "LCBSimulator.h"
 #include  "EE93CXX.h"

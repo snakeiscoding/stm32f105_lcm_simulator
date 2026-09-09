@@ -1,7 +1,7 @@
 
 
 /* Includes ------------------------------------------------------------------*/
-#include  "pindefine.h"
+#include  "PinDefine.h"
 #ifdef _SupportPhoenixConsole
 #include  "Operation.h"
 #include  "RowerWatts.h"

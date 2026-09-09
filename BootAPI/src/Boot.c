@@ -21,7 +21,7 @@
 #include  "fat.h"
 #include  "mst.h"
 #include  "os.h"
-#include  "BOOTflash.h"
+#include  "Bootflash.h"
 //#include "XmlFile.h"
 #include  "Boot.h"
 #include  "BoardInfo.h"
